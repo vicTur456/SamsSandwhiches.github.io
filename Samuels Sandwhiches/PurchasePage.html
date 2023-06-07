@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sam's Sandwiches - Payment Details</title>
+  <link rel="stylesheet" href="PurchasePage.css">
+  <script src="PurchasePage.js"></script>
+</head>
+<body>
+  <h1>Payment Details</h1>
+  
+  <form action="processPayment.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+    
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required><br>
+    
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br>
+    
+    <label for="card">Card Number:</label>
+    <input type="text" id="card" name="card" required><br>
+
+    <label for="ordercode">Enter Order Code:</label>
+    <input type="text" id="ordercode" name="orderCode" required><br>
+    
+    <input type="submit" value="Submit" method="post">
+  </form>
+  <button type="button" onclick="history.back()">Go Back</button>
+
+</body>
+</html>

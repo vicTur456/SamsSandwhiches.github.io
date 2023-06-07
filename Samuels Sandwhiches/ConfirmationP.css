@@ -1,0 +1,62 @@
+/* confirmation.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #000000;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+  
+  p {
+    color: #667;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-weight: normal ;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px 55px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  

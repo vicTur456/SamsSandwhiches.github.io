@@ -1,0 +1,71 @@
+/* CSS code for Sam's Sandwiches website */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  h1 {
+    color: #333333;
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  /* Form styling */
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    color: #333333;
+    font-weight: normal;
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+  
+  input[type="text"],
+  input[type="tel"] {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 0px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #C85252;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    padding: 20px 50px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #C85252;
+  }
+  
+  button {
+    background-color: #C85252;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    padding: 20px 50px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #C85252;
+  }
+  

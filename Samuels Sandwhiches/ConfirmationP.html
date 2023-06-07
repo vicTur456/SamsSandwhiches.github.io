@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sam's Sandwiches - Confirmation</title>
+  <link rel="stylesheet" href="ConfirmationP.css">
+</head>
+<body>
+  <h1>Confirmation</h1>
+  
+  <h2>Thank you for your order!</h2>
+  
+  <h3>Payment Details:</h3>
+  
+  <p>
+    <strong>Name:</strong> <?php echo $_POST['name']; ?><br>
+    <strong>Address:</strong> <?php echo $_POST['address']; ?><br>
+    <strong>Phone Number:</strong> <?php echo $_POST['phone']; ?><br>
+    <strong>Card Number:</strong> <?php echo $_POST['card']; ?><br>
+    <strong>Order Code:</strong> <?php echo $_POST['orderCode']; ?><br>
+  </p>
+  
+  <p>We will process your order shortly. A confirmation email will be sent to your provided email address.</p>
+  
+  <button type="button" onclick="location.href='HomePage.html'">Return to Home</button>
+</body>
+</html>
+

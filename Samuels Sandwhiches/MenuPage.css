@@ -1,0 +1,71 @@
+/* CSS code for Sam's Sandwiches website */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E88E8E;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  h1 {
+    color: #333333;
+    text-align: center;
+    margin-top: 0;
+    font-size: 60px;
+  }
+  
+  /* Menu item styling */
+  div {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #333333;
+    margin-top: 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 10px;
+  }
+  
+  p {
+    color: #777777;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #C85252;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    padding: 20px 70px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #C85252;
+  }
+  
+  /* Back to Home button */
+  button[type="button"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #C85252;
+  }
+  
